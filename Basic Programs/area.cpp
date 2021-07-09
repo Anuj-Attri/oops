@@ -17,7 +17,7 @@ int main()
             cin>>a;
             area = a*a;
             break;
-           }3
+           }
         case 2:
             int l, b;
             cout<<"Enter the length and breadth:"<<endl;
