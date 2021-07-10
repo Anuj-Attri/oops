@@ -14,7 +14,7 @@ This repository represents a collection of programming problems solved using C++
 
 
 ## Series & Patterns:
-1. [Series 1](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/sum_of_series_1.cpp)
+1. [Series 1](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/series_1.cpp)
 
 ![series 1](https://github.com/Anuj-Attri/oops/blob/main/Images/series1.png)
 
