@@ -11,3 +11,8 @@ This repository represents a collection of programming problems solved using C++
 7. [Prime numbers between two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/prime_numbers.cpp)
 8. [Basic Calculator for two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/basic_calc.cpp)
 9. [LCM and HCF of two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/LCMandHCF.cpp)
+
+
+## Series & Patterns:
+1. [Series 1](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/sum_of_series_1.cpp)
+![series 1](https://github.com/Anuj-Attri/oops/blob/main/Images/series1.png)
