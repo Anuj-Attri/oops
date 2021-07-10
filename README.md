@@ -25,3 +25,8 @@ This repository represents a collection of programming problems solved using C++
 3. [Series 3](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/series_3.cpp)
 
 ![Series 3](https://github.com/Anuj-Attri/oops/blob/main/Images/series3.png)
+
+
+## Strings:
+
+1. [Convert Character to ASCII integer](https://github.com/Anuj-Attri/oops/blob/main/Strings/char_and_ascii.cpp)
