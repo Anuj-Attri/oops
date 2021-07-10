@@ -16,8 +16,9 @@ int main() {
     cout<<"Enter the number of terms: "; cin>>n;
 
     for(int i=1; i<=n; i++) {
-
-        sum += ((x/(flag*i))*pow(-1, i+1));
+        
+        flag *= i;
+        sum += ((pow(x, i)/(flag))*pow(-1, i+1));
 
     }
 
