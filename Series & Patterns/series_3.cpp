@@ -15,7 +15,7 @@ int main() {
     int N; float sum=0;
     cout<<"Enter the number of terms: "; cin>>N;
 
-    for(int i=1; i<=N; i++) {
+    for(int i=1; i<=(2*N - 1); i++) {
 
         if (i % 2 != 0) {
 
