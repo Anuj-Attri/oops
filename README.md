@@ -21,3 +21,7 @@ This repository represents a collection of programming problems solved using C++
 2. [Series 2](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/series_2.cpp)
 
 ![Series 2](https://github.com/Anuj-Attri/oops/blob/main/Images/series2.png)
+
+3. [Series 3](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/series_3.cpp)
+
+![Series 3](https://github.com/Anuj-Attri/oops/blob/main/Images/series3.png)
