@@ -10,3 +10,4 @@ This repository represents a collection of programming problems solved using C++
 6. [Reversal of a Number](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/number_reversal.cpp)
 7. [Prime numbers between two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/prime_numbers.cpp)
 8. [Basic Calculator for two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/basic_calc.cpp)
+9. [LCM and HCF of two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/LCMandHCF.cpp)
