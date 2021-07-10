@@ -10,14 +10,14 @@ x - (x^2/2!) + (x^3/3!) - (x^4/4!) ...... so on upto 'n' terms.
 */
 
 int main() {
-    int x, n, flag=1, sum=0;
+    int n, flag=1; float sum=0, x;
 
     cout<<"Enter the value of 'x': "; cin>>x;
     cout<<"Enter the number of terms: "; cin>>n;
 
     for(int i=1; i<=n; i++) {
 
-        sum += ([x/(flag*i)]*pow(-1, i+1));
+        sum += ((x/(flag*i))*pow(-1, i+1));
 
     }
 
