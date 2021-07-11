@@ -8,13 +8,16 @@ To find the sum of N terms in the series:
 
 int main()  {
 
-    int N, flag=1, sum=12, i = 10;
+    int N, flag=1, term=12, i = 10, sum = 12;
     cout<<"Enter the number of terms: "; cin>>N;
 
-    while(flag <= N)    {
+    while(flag < N)    {
 
-        sum += i;
-        i += 10;
+        term += i;
+        i += flag*10;
+        flag += 1;
+        sum += term;
+
     }
 
     cout<<"The sum after "<<N<<" terms is: "<<sum;
