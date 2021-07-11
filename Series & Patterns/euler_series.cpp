@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <cstdlib>
 using namespace std;
 
 /*
@@ -21,5 +22,5 @@ int main()  {
 
     cout<<"The euler series expansion of x is: "<<sum<<endl;
     cout<<"The exponent of x is: "<<exp(x)<<endl;
-    cout<<"Error: "<<(sum/exp(x)-1)*100<<"%"<<endl;
+    cout<<"Error: "<<abs((sum/exp(x)-1)*100)<<"%"<<endl;
 }
