@@ -12,6 +12,7 @@ This repository represents a collection of programming problems solved using C++
 8. [Basic Calculator for two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/basic_calc.cpp)
 9. [LCM and HCF of two numbers](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/LCMandHCF.cpp)
 10. [Convert number of days to Years, weeks and days](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/days_to_weeks.cpp)
+11. [Even or Odd using Ternary operator.](https://github.com/Anuj-Attri/oops/blob/main/Basic%20Programs/odd_or_even.cpp)
 
 
 ## Series & Patterns:
