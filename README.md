@@ -30,7 +30,6 @@ This repository represents a collection of programming problems solved using C++
 
 4. [Euler's Series](https://github.com/Anuj-Attri/oops/blob/main/Series%20%26%20Patterns/euler_series.cpp)
 
-![Euler's Series](https://github.com/Anuj-Attri/oops/blob/main/Images/euler.jpg)
 
 ## Strings:
 
