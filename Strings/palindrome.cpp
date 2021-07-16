@@ -8,8 +8,7 @@ int main()  {
     char string[20];
     cout<<"Enter the word: ";
     gets(string);
-    cout<<strrev(string)<<endl;
 
-    (strcmp(string, strrev(string)) == 0)?cout<<"It is a palindrome.":cout<<"It is not a palindrome";
+    (strcmp(string, strrev(string)) == 0) ? cout<<"It is a palindrome." : cout<<"It is not a palindrome";
 
 }
