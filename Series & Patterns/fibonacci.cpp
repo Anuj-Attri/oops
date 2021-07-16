@@ -7,9 +7,16 @@ Print the fibonacci series.
 
 int main()  {
 
-    int N, j=1;
+    int a = 0, b = 1, c, i, n;
+    cout<<"Enter the limit: "; cin>>n;
 
-    for(int i=0; i<=N; i++) {
-    cout<<i;
+    if( n == 0)
+        return a;
+    for(i = 2; i <= n; i++)
+    {
+       c = a + b;
+       a = b;
+       b = c;
     }
+    cout<<b;
 }
