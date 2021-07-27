@@ -1,74 +1,40 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-char board[3][3];
+char board[9];
 
-int grid(char board[3][3])  {
-    // char x1 = '1', x2 = '2', x3 = '3', x4 = '4', x5 = '5', x6 = '6', x7 = '7', x8 = '8', x9 = '9';
-    // system("cls");
-    cout<<"____"<<board[0][0]<<"____|____"<<board[0][1]<<"____|____"<<board[0][2]<<"____"<<endl;
-    cout<<"____"<<board[1][0]<<"____|____"<<board[1][1]<<"____|____"<<board[1][2]<<"____"<<endl;
-    cout<<"____"<<board[2][0]<<"____|____"<<board[2][1]<<"____|____"<<board[2][2]<<"____"<<endl;
+int grid(char board[9])  {
+
+    cout<<"____"<<board[0]<<"____|____"<<board[1]<<"____|____"<<board[2]<<"____"<<endl;
+    cout<<"____"<<board[3]<<"____|____"<<board[4]<<"____|____"<<board[5]<<"____"<<endl;
+    cout<<"____"<<board[6]<<"____|____"<<board[7]<<"____|____"<<board[8]<<"____"<<endl;
     cout<<"    "<<" "<<"    |    "<<" "<<"    |    ";
 }
 
-int reset(char board[3][3]) {
+int reset(char board[9]) {
 
     system("CLS");
-    board[0][0] = '1'; board[1][2] = '6';
-    board[0][1] = '2'; board[2][0] = '7';
-    board[0][2] = '3'; board[2][1] = '8';
-    board[1][0] = '4'; board[2][2] = '9';
-    board[1][1] = '5';    
+    int j=1;
 
+    for(int i=0; i<9; i++)  {
+        
+        board[i] = j;
+        j++;
+    }
 }
 
-int input(char board[3][3]) {
+int input(char board[9]) {
     
     int slot_number;
     here:
     cout<<"Enter your choice: "; cin>>slot_number;
 
-    switch(slot_number) {
-        case 1:
-            board[0][0]='X';
-            break;
-        case 2:
-            board[0][1]='X';
-            break;
-        case 3:
-            board[0][2]='X';
-            break;
-        case 4:
-            board[1][0]='X';
-            break;
-        case 5:
-            board[1][1]='X';
-            break;
-        case 6:
-            board[1][2]='X';
-            break;
-        case 7:
-            board[2][0]='X';
-            break;
-        case 8:
-            board[2][1]='X';
-            break;
-        case 9:
-            board[2][2]='X';
-            break;
-        default:
-            cout<<"invalid input"<<endl;
-            goto here;
-            break;
-
-    }
+    board[slot_number - 1] = 'X';
 
 }
 
 int main()  {
-    // char board[3][3];
     
-    // reset(board);
-    // grid(board);
+    grid(board);   
+
 }
