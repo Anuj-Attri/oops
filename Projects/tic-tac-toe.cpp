@@ -8,7 +8,7 @@ int grid(char board[9])  {
     cout<<"____"<<board[0]<<"____|____"<<board[1]<<"____|____"<<board[2]<<"____"<<endl;
     cout<<"____"<<board[3]<<"____|____"<<board[4]<<"____|____"<<board[5]<<"____"<<endl;
     cout<<"____"<<board[6]<<"____|____"<<board[7]<<"____|____"<<board[8]<<"____"<<endl;
-    cout<<"    "<<" "<<"    |    "<<" "<<"    |    ";
+    cout<<"    "<<" "<<"    |    "<<" "<<"    |    "<<endl;
 }
 
 int reset(char board[9]) {
@@ -33,8 +33,15 @@ int input(char board[9]) {
 
 }
 
+int computer(int a) {
+    srand(time(0));
+    a = rand();
+}
+
 int main()  {
     
-    grid(board);   
-
+    for(int i=0; i<9; i++)  {
+        input(board);
+        grid(board);
+    }
 }
