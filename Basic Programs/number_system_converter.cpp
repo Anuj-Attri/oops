@@ -64,8 +64,11 @@ int main()  {
     here:
     cout<<"Choose between the following: \n1)Decimal to Binary \n2)Decimal to Octal \nYour choice: "; 
     cin>>choice;
+    system(CLS);
+    cout<<"Enter the number: "; cin>>n;
     iters = size_calc(n, choice);
-
+    system(CLS);
+    
     switch(choice)  {
         case 1:
             decimal_to_binary(n, iters);
