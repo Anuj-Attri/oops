@@ -15,7 +15,7 @@ int decimal_to_binary(int n, int iters)    {
     }
     len = (sizeof(arr)/sizeof(arr[0])) - 1;
     cout<<"The converted result is: ";
-    
+
     for(int j=len; j>=0; j-- ) {
         cout<<arr[j];
     }
@@ -65,6 +65,7 @@ int size_calc(int n, int choice)    {
 
 int main()  {
     int n, iters, choice;
+    system("CLS");
     here:
     cout<<"Choose between the following: \n1)Decimal to Binary \n2)Decimal to Octal \nYour choice: "; 
     cin>>choice;
