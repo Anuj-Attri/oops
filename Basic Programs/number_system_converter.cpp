@@ -38,18 +38,29 @@ int decimal_to_octal(int n, int iters)    {
 }
 
 
-int size_calc(int n)    {
+int size_calc(int n, int choice)    {
     int i=0;
-    while(n !=0)    {
-        n /= 2;
-        i++;
+
+    if(choice == 1) {
+        while(n !=0)    {
+            n /= 2;
+            i++;
+        }
     }
+
+    else if(choice == 2)    {
+        while(n !=0)    {
+            n /= 8;
+            i++;
+        }
+    }
+        
 
     return i;
 }
 
 int main()  {
-    int n = 39, iters;
-    iters = size_calc(n);
+    int n = 39, iters, choice=1;
+    iters = size_calc(n, choice);
     decimal_to_binary(n, iters);
 }
