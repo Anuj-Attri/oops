@@ -60,7 +60,24 @@ int size_calc(int n, int choice)    {
 }
 
 int main()  {
-    int n = 39, iters, choice=1;
+    int n, iters, choice;
+    here:
+    cout<<"Choose between the following: \n1)Decimal to Binary \n2)Decimal to Octal \nYour choice: "; 
+    cin>>choice;
     iters = size_calc(n, choice);
-    decimal_to_binary(n, iters);
+
+    switch(choice)  {
+        case 1:
+            decimal_to_binary(n, iters);
+            break;
+
+        case 2:
+            decimal_to_octal(n, iters);
+            break;
+        
+        default:
+            cout<<"Invalid input!!";
+            goto here;
+            break;
+    }
 }
