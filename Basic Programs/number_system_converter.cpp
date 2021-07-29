@@ -14,6 +14,8 @@ int decimal_to_binary(int n, int iters)    {
         i++;
     }
     len = (sizeof(arr)/sizeof(arr[0])) - 1;
+    cout<<"The converted result is: ";
+    
     for(int j=len; j>=0; j-- ) {
         cout<<arr[j];
     }
@@ -30,6 +32,8 @@ int decimal_to_octal(int n, int iters)    {
         i++;
     }
     len = (sizeof(arr)/sizeof(arr[0])) - 1;
+    cout<<"The converted result is: ";
+
     for(int j=len; j>=0; j-- ) {
         cout<<arr[j];
     }
